@@ -4,6 +4,16 @@ Welcome to my **200-day journey** of mastering full-stack web development with t
 
 ---
 
+## 💻 **Progress Tracker**
+
+| Day  | Status  | Link                      |
+|------|---------|---------------------------|
+| Day 1 | ✅ Done  | [Day 1](./day1)            |
+| Day 2 | ✅ Done  | [Day 2](./day2)            |
+| Day 3 | ✅ Done  | [Day 3](./day3)            |
+| Day 4 | ✅ Done  | [Day 4](./day4)            |
+| Day 5 | ❌ Pending | [Day 5](./day5)        |
+
 ## 🎯 **Challenge Goals**
 
 1. **MERN Stack Mastery**:
