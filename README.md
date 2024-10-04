@@ -1,6 +1,6 @@
 # 200 Days of MERN & JAVA FULL Stack Challenge 🚀
 
-Welcome to my **200-day journey** of mastering full-stack web development with the **MERN Stack** (MongoDB, Express.js, React, Node.js) and the **JAV FULL STACK Stack** (Java, Angular, MongoDB, Spring Boot). This repository will document my progress, projects, and code samples as I work towards becoming proficient in both stacks.
+Welcome to my **200-day journey** of mastering full-stack web development with the **MERN Stack** (MongoDB, Express.js, React, Node.js) and the **JAVA FULL STACK Stack** (Java, Angular, MongoDB, Spring Boot). This repository will document my progress, projects, and code samples as I work towards becoming proficient in both stacks.
 
 ---
 
