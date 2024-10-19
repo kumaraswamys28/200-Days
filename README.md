@@ -6,18 +6,13 @@ Welcome to my **200-day journey** of mastering full-stack web development with t
 
 ## 💻 **Progress Tracker**
 
-| Day  | Status  | Link                           | Day  | Status  | Link                            | Day  | Status  | Link                      |
-|------|---------|---------------------------     |------|---------|---------------------------      |------|---------|---------------------------|
-| Day 1 | ✅ Done  | [Day 1](./day1)                 | Day 11 | ✅ Done | [Day 11](./day11)        |
-| Day 2 | ✅ Done  | [Day 2](./day2)                 | Day 12 | ✅ Done | [Day 12](./day12)        |
-| Day 3 | ✅ Done  | [Day 3](./day3)                  | Day 13 | ✅ Done | [Day 13](./day13)        |
-| Day 4 | ✅ Done  | [Day 4](./day4)                 | Day 14 | ✅ Done | [Day 14](./day14)        |
-| Day 5 | ✅ Done  | [Day 5](./day5)                 | Day 15 | ✅ Done | [Day 15](./day15)        |
-| Day 6 | ✅ Done  | [Day 6](./day6)                  | Day 16 | ✅ Done | [Day 16](./day16)        |
-| Day 7 | ✅ Done  | [Day 7](./day7)                 | Day 17 | ❌ Pending | [Day 17](./day17)        |
-| Day 8 | ✅ Done  | [Day 8](./day8)            |
-| Day 9 | ✅ Done  | [Day 9](./day9)            |
-| Day 10 | ✅ Done  | [Day 10](./day10)            |
+| ✅ [Day 1](./day1) | ✅ [Day 2](./day2) | ✅ [Day 3](./day3) | ✅ [Day 4](./day4) |
+| ✅ [Day 5](./day5) | ✅ [Day 6](./day6) | ✅ [Day 7](./day7) | ✅ [Day 8](./day8) |
+| ✅ [Day 9](./day9) | ✅ [Day 10](./day10) | ✅ [Day 11](./day11) | ✅ [Day 12](./day12) |
+| ✅ [Day 13](./day13) | ✅ [Day 14](./day14) | ✅ [Day 15](./day15) | ✅ [Day 16](./day16) |
+| ✅ [Day 17](./day17) | ✅ [Day 18](./day18) | ❌ [Day 19](./day19) | ❌ [Day 20](./day20) |
+| ❌ [Day 21](./day21) | ❌ [Day 22](./day22) | ❌ [Day 23](./day23) | ❌ [Day 24](./day24) |
+
 
 ## 🎯 **Challenge Goals**
 
