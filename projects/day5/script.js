@@ -5,7 +5,11 @@ const taskList = document.getElementById("taskList");
 
 // Event listener for adding a task
 addTaskBtn.addEventListener("click", addTask);
-
+taskInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});
 // Load tasks from local storage on page load
 document.addEventListener("DOMContentLoaded", loadTasks);
 
