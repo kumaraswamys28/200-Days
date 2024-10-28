@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        button{
+            width: 30px;
+            height: 20px;
+        }
+        .but{
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="header">
+      
+    </div>
+    <div class="button"><button>h</button><button>b</button><button>t</button><button>y</button
+        ><button>i</button></div>
+<h1>all together example</h1>
+        <div id="head">
+            <h1 id="hea">title</h1>
+            <button class="but">Change Title</button>
+        </div>
+  </body>
+  <script>
+    const container = document.getElementById("container");
+container.innerHTML = "<p>Welcome to my website!</p>";
+
+    const header = document.getElementById("header");
+    header.textContent = "hello";
+    const button = document.querySelector(".button");
+    const allButtons = document.querySelectorAll(".button");
+
+button.style.backgroundColor = "blue";
+button.style.color = "white";
+button.style.padding = "10px";
+button.style.borderRadius = "5px";
+
+
+button.addEventListener("click", function () {
+  alert("Button was clicked!");
+
+
+});
+
+const hea = document.getElementById("hea");
+const but = document.querySelector(".but");
+
+but.addEventListener("click", () => {
+  hea.textContent = "New Title";
+  hea.style.color = "purple";
+  hea.style.fontSize = "2em";
+});
+
+  </script>
+</html>
