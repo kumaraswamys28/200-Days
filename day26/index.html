@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="onload()">
+    <div>
+        <input type="text" name="username" id="username">
+        <button type="button" onclick="run()">Submit</button>
+        <p id="hi"></p>
+        <button onclick="logout()">logout</button>
+    </div>
+</body>
+<script>
+    function onload() {
+        const username = localStorage.getItem("username");
+        let p = document.getElementById("hi");
+        const styleObject = {
+        width: "auto",
+        height: "30px",
+        backgroundColor: "blue",
+        color: "white", 
+        textAlign: "center",
+        lineHeight: "30px" 
+    };
+        Object.assign(p.style, styleObject);
+      
+  
+        if (username) {
+            p.innerHTML = `Welcome back, ${username}!`;
+        } else {
+            p.innerHTML = "No user saved";
+        }
+    }
+
+    function run() {
+        let user = document.getElementById("username").value;
+        const styleObject = {
+        width: "100px",
+        height: "30px",
+        backgroundColor: "blue",
+        color: "white", 
+        textAlign: "center",
+        lineHeight: "30px" 
+    };
+        localStorage.setItem("username", user);
+        
+        const username = localStorage.getItem("username");
+        let p = document.getElementById("hi");
+        Object.assign(p.style, styleObject);
+        location.reload();
+        p.innerHTML = `Hello, ${username}!`;
+      
+        
+    }
+    function logout(){
+        localStorage.removeItem("username");
+        localStorage.clear();
+        location.reload();
+    }
+</script>
+</html>
