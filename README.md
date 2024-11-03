@@ -14,8 +14,8 @@ Welcome to my **200-day journey** of mastering full-stack web development with t
 | ✅ [Day 5](./day5)  | ✅ [Day 15](./day15) | ✅ [Day 25](./day25) | ❌ [Day 35](./day35) | ❌ [Day 45](./day45) | ❌ [Day 55](./day55) | ❌ [Day 65](./day65) | ❌ [Day 75](./day75) | ❌ [Day 85](./day85) | ❌ [Day 95](./day95) |
 | ✅ [Day 6](./day6)  | ✅ [Day 16](./day16) | ✅ [Day 26](./day26) | ❌ [Day 36](./day36) | ❌ [Day 46](./day46) | ❌ [Day 56](./day56) | ❌ [Day 66](./day66) | ❌ [Day 76](./day76) | ❌ [Day 86](./day86) | ❌ [Day 96](./day96) |
 | ✅ [Day 7](./day7)  | ✅ [Day 17](./day17) | ✅ [Day 27](./day27) | ❌ [Day 37](./day37) | ❌ [Day 47](./day47) | ❌ [Day 57](./day57) | ❌ [Day 67](./day67) | ❌ [Day 77](./day77) | ❌ [Day 87](./day87) | ❌ [Day 97](./day97) |
-| ✅ [Day 8](./day8)  | ✅ [Day 18](./day18) | ❌ [Day 28](./day28) | ❌ [Day 38](./day38) | ❌ [Day 48](./day48) | ❌ [Day 58](./day58) | ❌ [Day 68](./day68) | ❌ [Day 78](./day78) | ❌ [Day 88](./day88) | ❌ [Day 98](./day98) |
-| ✅ [Day 9](./day9)  | ✅ [Day 19](./day19) | ❌ [Day 29](./day29) | ❌ [Day 39](./day39) | ❌ [Day 49](./day49) | ❌ [Day 59](./day59) | ❌ [Day 69](./day69) | ❌ [Day 79](./day79) | ❌ [Day 89](./day89) | ❌ [Day 99](./day99) |
+| ✅ [Day 8](./day8)  | ✅ [Day 18](./day18) | ✅ [Day 28](./day28) | ❌ [Day 38](./day38) | ❌ [Day 48](./day48) | ❌ [Day 58](./day58) | ❌ [Day 68](./day68) | ❌ [Day 78](./day78) | ❌ [Day 88](./day88) | ❌ [Day 98](./day98) |
+| ✅ [Day 9](./day9)  | ✅ [Day 19](./day19) | ✅ [Day 29](./day29) | ❌ [Day 39](./day39) | ❌ [Day 49](./day49) | ❌ [Day 59](./day59) | ❌ [Day 69](./day69) | ❌ [Day 79](./day79) | ❌ [Day 89](./day89) | ❌ [Day 99](./day99) |
 | ✅ [Day 10](./day10)| ✅ [Day 20](./day20) | ❌ [Day 30](./day30) | ❌ [Day 40](./day40) | ❌ [Day 50](./day50) | ❌ [Day 60](./day60) | ❌ [Day 70](./day70) | ❌ [Day 80](./day80) | ❌ [Day 90](./day90) | ❌ [Day 100](./day100) |
 
 
