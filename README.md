@@ -6,7 +6,7 @@ Welcome to my **200-day journey** of mastering full-stack web development with t
 
 ## 💻 **Progress Tracker**
 
-| ✅ [Day 1](./day1)  | ✅ [Day 11](./day11) | ✅ [Day 21](./day21) | ❌ [Day 31](./day31) | ❌ [Day 41](./day41) | ❌ [Day 51](./day51) | ❌ [Day 61](./day61) | ❌ [Day 71](./day71) | ❌ [Day 81](./day81) | ❌ [Day 91](./day91) |
+| ✅ [Day 1](./day1)  | ✅ [Day 11](./day11) | ✅ [Day 21](./day21) | ✅ [Day 31](./day31) | ❌ [Day 41](./day41) | ❌ [Day 51](./day51) | ❌ [Day 61](./day61) | ❌ [Day 71](./day71) | ❌ [Day 81](./day81) | ❌ [Day 91](./day91) |
 | -------  | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | ✅ [Day 2](./day2)  | ✅ [Day 12](./day12) | ✅ [Day 22](./day22) | ❌ [Day 32](./day32) | ❌ [Day 42](./day42) | ❌ [Day 52](./day52) | ❌ [Day 62](./day62) | ❌ [Day 72](./day72) | ❌ [Day 82](./day82) | ❌ [Day 92](./day92) |
 | ✅ [Day 3](./day3)  | ✅ [Day 13](./day13) | ✅ [Day 23](./day23) | ❌ [Day 33](./day33) | ❌ [Day 43](./day43) | ❌ [Day 53](./day53) | ❌ [Day 63](./day63) | ❌ [Day 73](./day73) | ❌ [Day 83](./day83) | ❌ [Day 93](./day93) |
