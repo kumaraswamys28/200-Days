@@ -14,84 +14,15 @@ document.getElementById("test").innerHTML =project==[] && education==[] && certi
         <li><span class="emoji">📝</span> Please provide some details so we can craft your masterpiece.</li>
         <li><span class="emoji">💡</span> Even Shakespeare had to start with words!</li>
     </ul>
-    <button onclick="printDiv()">Print A4 Div</button>
+    
 </div>
-` : `<section id="about-me">
-    <div class="about-container">
-        <h2>About Me</h2>
-        <p class="about-container__intro">
-            👋 Hi, I'm <strong>${personnel.firstName} ${personnel.lastName}</strong>, a passionate software developer. 
-            With expertise in multiple technologies, I strive to build impactful solutions.
-        </p>
+` : `
+    <button onclick="printDiv()">Print A4 Div</button>
 
-        <div class="about-container__section">
-            <h3>🎯 Career Objective</h3>
-            <p class="about-container__text">
-                ${personnel.careerObjective}
-            </p>
-        </div>
+               
+            `;
 
-        <div class="about-container__section">
-            <h3>🚀 Skills & Tools</h3>
-            <ul class="about-container__list">
-                ${Object.entries(skillsData).map(([domain, skills]) => 
-                    `<li>🔧 <strong>${domain}:</strong> ${skills.join(', ')}</li>`
-                ).join('')}
-            </ul>
-        </div>
-
-        <div class="about-container__section">
-            <h3>🎓 Education</h3>
-            <ul class="about-container__list">
-                ${
-                    education.map(e => 
-                        `<li>🏫 <strong>${e.institution}</strong> (${e.year})<br>
-                            📜 ${e.qualification} | CGPA: <strong>${e.cgpa}</strong> <br>
-                            📍 ${e.district}, ${e.state}
-                        </li>`
-                    ).join('')
-                }
-            </ul>
-        </div>
-
-        <div class="about-container__section">
-            <h3>💡 Projects</h3>
-            <ul class="about-container__list">
-                ${project.map(e => `
-                    <li>🛠 <strong>${e.name}</strong> (${e.duration})<br>
-                        ⚙ Tools: ${e.tools.join(', ')}<br>
-                        📌 Features:
-                        <ul>${e.features.map(feature => `<li>✅ ${feature}</li>`).join('')}</ul>
-                    </li>
-                `).join('')}
-            </ul>
-        </div>
-
-        <div class="about-container__section">
-            <h3>🏆 Certifications</h3>
-            <ul class="about-container__list">
-                ${certifications.map(e => 
-                    `<li>📜 <strong>${e.name}</strong> - ${e.issuer}, ${e.date}</li>`
-                ).join('')}
-            </ul>
-        </div>
-
-        <div class="about-container__section">
-            <h3>📞 Contact</h3>
-            <p>
-                📱 <a href="tel:${personnel.phone}">${personnel.phone}</a> <br>
-                📧 <a href="mailto:${personnel.email}">${personnel.email}</a> <br>
-                🔗 <a href="${personnel.website}" target="_blank">Website</a> | 
-                💼 <a href="${personnel.linkedin}" target="_blank">LinkedIn</a> | 
-                🖥 <a href="${personnel.github}" target="_blank">GitHub</a>
-            </p>
-        </div>
-    </div>
-</section>
-`;
-
-
-const printarea=document.getElementById("printArea")
+let printarea=document.getElementById("printArea")
 let resume=`  <header>
                     <h1>${personnel.firstName} ${personnel.lastName}</h1>
                     <p>
@@ -101,7 +32,7 @@ let resume=`  <header>
                     <p>
                     <a href="${personnel.website}" target="_blank">Website</a> |
                         <a href="${personnel.linkedin}" target="_blank">LinkedIn</a> |
-                        <a href="${personnel.gjithub}" target="_blank">GitHub</a>
+                        <a href="${personnel.github}" target="_blank">GitHub</a>
                     </p>
                 </header>
         
@@ -148,9 +79,6 @@ let resume=`  <header>
                 <section class="projects">
                     <h6>Projects</h6>
                     <ul>
-
-
-
                     ${project.map(e => `
                         <li>
                             <div class="project">
@@ -160,7 +88,7 @@ let resume=`  <header>
                                 </div>
                                 <div class="bottom-row">
                                     <i>Tools: ${e.tools.join(', ')}</i>
-                                    <a href="[Project GitHub]">GitHub</a>
+                                    <a href="${e.url}">GitHub</a>
                                 </div>
                             </div>
                             <ul>
@@ -180,8 +108,5 @@ let resume=`  <header>
         ).join('')}
     </ul>
 </section>
-
-        
-               
-            `;
+         `;
 printarea.innerHTML=resume
